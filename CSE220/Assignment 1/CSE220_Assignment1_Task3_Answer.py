@@ -8,7 +8,6 @@ def findGroups(money, fare):
     ungrouped=np.array([0]*len(money))
     ugp=False
     cc=0
-    g=1
     for i in range(len(money)):
         group=False
         if money[i]!=fare and i!=(len(money)-1):
