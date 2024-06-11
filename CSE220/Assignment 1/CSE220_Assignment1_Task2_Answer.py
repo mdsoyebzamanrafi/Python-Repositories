@@ -18,7 +18,6 @@ def discardCards(cards, t):
     else:
       arr[idx]=int(cards[i])
       idx+=1
-  print(arr)
   return arr
 
 
